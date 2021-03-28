@@ -15,7 +15,7 @@ class Ex04 {
 
         entrada.close();
 
-        Float volume = 3.1f * (raio * raio) * altura;
+        Float volume = 3.14159f * (raio * raio) * altura;
 
         DecimalFormat formatador = new DecimalFormat("0.0");
 
