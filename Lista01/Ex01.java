@@ -8,7 +8,7 @@ class Ex01 {
         Scanner entrada  = new Scanner(System.in);
 
         System.out.println("Digite a temperatura em Celsius: ");
-        float celsius  = entrada.nextFloat();
+        float celsius = entrada.nextFloat();
 
         entrada.close();
 
