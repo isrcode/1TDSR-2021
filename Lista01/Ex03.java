@@ -24,7 +24,7 @@ class Ex03 {
         DecimalFormat format1 = new DecimalFormat("0.00");
         DecimalFormat format2 = new DecimalFormat("0");
 
-        Float quantAzulejos = ((hp*100)/lp) * ((lp*100)/la);
+        Float quantAzulejos = ((hp*100)/ha) * ((lp*100)/la);
 
         System.out.println("Seram nescessario "+format2.format(quantAzulejos)+" azulejos para cobrir uma parede de "+ format1.format(hp*lp)+"m²");
     }
